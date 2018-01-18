@@ -1,0 +1,10 @@
+{
+  "name": "purin",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/puru-puru/purin.git"
+  },
+  "private": true,
+  "dependencies": {}
+}
