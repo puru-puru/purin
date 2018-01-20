@@ -7,7 +7,7 @@ RUN apk add --update --no-cache \
     tzdata \
     nodejs
 WORKDIR /purin
-COPY Gemfile* ./
+COPY Gemfile Gemfile.lock ./
 RUN bundle install
 COPY . .
 EXPOSE 3000
